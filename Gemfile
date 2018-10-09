@@ -5,6 +5,10 @@ ruby '2.5.1'
 # Authentication/authorization
 gem 'devise_token_auth'
 gem 'omniauth'
+#testing
+gem 'rspec-rails', '~> 3.8'
+gem 'factory_bot_rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
